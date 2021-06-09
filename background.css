@@ -1,0 +1,18 @@
+section {
+    width: 1000px;
+    height: 500px;
+    background-image: url(img0_2560x1600.jpg);
+    /* background-size: contain;         ----->  whole but repeats         */    
+    background-size: cover;            /*----->  whole in fixed amount     */
+    /* background-repeat: no-repeat;     ----->  whole in fixed amount but not full*/
+    background-position: center;      /* ----->   position of image part   */
+    /* background-size: nocover;         ------>  not whole in fixed amount*/
+    /* or */
+    /* background: url(img0_2560x1600.jpg) center/cover;        /----->necessary  cover<->value like 50% etc.... */
+    color: greenyellow;
+    margin: 0 auto;
+    font-family: Roboto , sans-serif ;
+}
+h2 {
+    font-weight: 100;
+}
